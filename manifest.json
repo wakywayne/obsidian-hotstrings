@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "obsidian-hotstrings",
+	"name": "Obsidian Hot Strings",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Allows you to set custom hot strings that get converted to text once typed. In less then 15 seconds you can make a custom string that will be converted into whatever text you want. All strings are managed in a hotstrings file. After adding a new hotstring just run the reload command or use a hotkey config in the plugin by clicking th + icon.",
+	"author": "wakywayne",
+	"authorUrl": "https://github.com/wakywayne/wakywayne/blob/main/README.md",
+	"fundingUrl": "",
 	"isDesktopOnly": false
 }
