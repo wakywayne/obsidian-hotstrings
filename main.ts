@@ -10,8 +10,10 @@ export default class HotstringsPlugin extends Plugin {
 	private hotstringsFile: string = "hotstrings.md"; // File name for hotstrings
 
 	async onload() {
-		// Load hotstrings on startup
-		await this.loadHotstrings();
+		// Wait for layout to be ready before loading hotstrings
+		this.app.workspace.onLayoutReady(async () => {
+			await this.loadHotstrings();
+		});
 
 		// Add a command to reload hotstrings
 		this.addCommand({
