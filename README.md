@@ -47,14 +47,13 @@ If you make changes to your hotstrings, you can reload them using the command pa
 
 Here are some useful hotstring examples:
 
--   `:sig` → Your signature
--   `:date` → Current date
--   `:addr` → Your address
--   `:mail` → Your email address
+-   `SIG~.~{Your signature saying how you are a nice person and proffesional or something}` → Your signature
+-   `SUPA~.~{supercalifragilisticexpialidocious}` → Long word that you don't want to have to type
+-   `MAILAD` → Your email address
 
 ## Tips
 
--   Use the quick add plugin to easily add hotstrings to the hotstring file [git-repo](https://github.com/chhoumann/quickadd)
+-   Use the quick add community plugin to easily add hotstrings to the hotstring file [git-repo](https://github.com/chhoumann/quickadd)
 -   Hotstrings are case-sensitive by default
 -   Triggers must be unique
 -   Use the reload command after adding new hotstrings
@@ -75,3 +74,29 @@ If you encounter any issues or have suggestions:
 -   Open an issue on the GitHub repository
 -   Include steps to reproduce the problem
 -   Provide your Obsidian version and operating system
+
+## Contributing
+
+Contributions are always welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b featureName`)
+3. Make your changes
+4. Test the code for a week or few days if you are a heavy user
+5. Commit your changes
+6. Push to the branch (`git push origin feature/improvement`)
+7. Create a Pull Request
+
+### Development Setup
+
+1. Clone your fork of the repository
+2. Install dependencies with `npm install`
+3. Make your changes in the `main.ts` file
+4. Build the plugin with `npm run dev`
+
+Please ensure your PR:
+
+-   Follows the existing code style
+-   Includes relevant documentation updates
+-   Describes the changes made
+-   References any related issues
