@@ -46,7 +46,7 @@ export default class HotstringsPlugin extends Plugin {
 			// Create the file with a default comment if it doesn't exist
 			await this.app.vault.create(
 				this.hotstringsFile,
-				`# Add your hotstrings below in the format:\n# trigger~.~{replacement}`,
+				`#### Add your hotstrings below in the format:\n# trigger~.~{text string that you want}`,
 			);
 			new Notice(`Hotstrings file created: ${this.hotstringsFile}`);
 		}
