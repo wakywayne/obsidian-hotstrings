@@ -1,4 +1,4 @@
-import { App, Editor, MarkdownView, Plugin, TFile, Notice } from "obsidian";
+import { Editor, Plugin, TFile, Notice } from "obsidian";
 
 interface Hotstring {
 	trigger: string;
