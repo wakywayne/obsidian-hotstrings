@@ -18,7 +18,7 @@ export default class HotstringsPlugin extends Plugin {
 		// Add a command to reload hotstrings
 		this.addCommand({
 			id: "reload-hotstrings",
-			name: "Reload Hotstrings",
+			name: "Reload hotstrings",
 			callback: async () => {
 				await this.loadHotstrings();
 				new Notice("Hotstrings reloaded!");
