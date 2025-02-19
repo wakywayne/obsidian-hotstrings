@@ -3,7 +3,7 @@
 	"name": "Hot Strings",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Allows you to set custom hot strings that get expanded to text once typed.",
+	"description": "Set custom hot strings that get expanded to text once typed.",
 	"author": "wakywayne",
 	"authorUrl": "https://github.com/wakywayne/wakywayne/blob/main/README.md",
 	"fundingUrl": "",

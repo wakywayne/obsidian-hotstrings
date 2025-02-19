@@ -1,4 +1,4 @@
-# Obsidian Hotstrings Plugin
+# Hotstrings Plugin
 
 A plugin for [Obsidian](https://obsidian.md) that allows you to create custom text expansions (hotstrings) that automatically expand as you type.
 
