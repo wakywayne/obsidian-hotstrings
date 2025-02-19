@@ -1,11 +1,11 @@
 {
 	"id": "hotstrings",
-	"name": "Hot Strings",
+	"name": "Hotstrings",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Set custom hot strings that get expanded to text once typed.",
+	"description": "Set custom hotstrings that get expanded to text once typed.",
 	"author": "wakywayne",
 	"authorUrl": "https://github.com/wakywayne/wakywayne/blob/main/README.md",
-	"fundingUrl": "",
+	"fundingUrl": "https://buymeacoffee.com/wakywayne",
 	"isDesktopOnly": false
 }

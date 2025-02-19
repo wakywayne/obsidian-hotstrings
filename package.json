@@ -1,7 +1,7 @@
 {
 	"name": "hotstrings",
 	"version": "1.0.0",
-	"description": "Set custom hot strings that get expanded to text once typed.",
+	"description": "Set custom hotstrings that get expanded to text once typed.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
